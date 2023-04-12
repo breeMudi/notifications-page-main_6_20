@@ -27,12 +27,30 @@ body {
     border: none;
     border-radius: 20px;
     background-color: #e5effa;
+    display: flex;
+    align-items: center;
 }
 
-.inline {
-    display: inline-flex;
+.username {
+    color: #1c202b;
+    font-weight: 800;
 }
 
-.inline div {
-    padding-right: 10px;
+.action {
+    color: #5e6778;
+}
+
+.object {
+    color: #1c202b;
+    font-weight: 800;
+    opacity: 0.7;
+
+}
+span {
+    margin-right: 5px;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
 }
