@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    background-color: #fdf8f7;
+    background-color: #e5effa;
 }
 
 .container {
@@ -21,4 +21,18 @@ body {
 .heading {
     display: flex;
     justify-content: space-between;
+}
+
+.update {
+    border: none;
+    border-radius: 20px;
+    background-color: #e5effa;
+}
+
+.inline {
+    display: inline-flex;
+}
+
+.inline div {
+    padding-right: 10px;
 }
