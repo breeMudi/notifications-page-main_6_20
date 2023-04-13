@@ -3,6 +3,12 @@ html, body {
     padding: 0px;
     font-family: 'Plus Jakarta Sans', sans-serif;
     box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+p {
+    margin: 0;
 }
 
 body {
@@ -11,11 +17,11 @@ body {
 
 .container {
     margin: auto;
-    width: 60%;
+    /* width: 100%; */
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 5px 7px 14px -7px rgba(0,0,0,0.67);
-    padding: 30px;
+    padding: 20px;
 }
 
 .heading {
@@ -23,12 +29,28 @@ body {
     justify-content: space-between;
 }
 
+.notify {
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.notify-number {
+    background-color: #0a317b;
+    border: 2px;
+    border-radius: 5px;
+    height: 20px;
+    color:#e5effa;
+}
+
 .update {
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #e5effa;
     display: flex;
     align-items: center;
+    margin-top: 10px;
+    padding: 20px;
+    gap: 10px;
 }
 
 .username {
@@ -36,7 +58,7 @@ body {
     font-weight: 800;
 }
 
-.action {
+.action, .read {
     color: #5e6778;
 }
 
@@ -44,13 +66,17 @@ body {
     color: #1c202b;
     font-weight: 800;
     opacity: 0.7;
+}
 
+.action-time {
+    color: #939dae;
 }
 span {
     margin-right: 5px;
 }
 
-.icon {
-    height: 20px;
-    width: 20px;
+.update img {
+    height: 40px;
+    width: 40px;
+    /* padding: 20px; */
 }
