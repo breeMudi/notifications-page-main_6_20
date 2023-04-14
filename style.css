@@ -21,7 +21,7 @@ body {
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 5px 7px 14px -7px rgba(0,0,0,0.67);
-    padding: 20px;
+    padding: 15px;
 }
 
 .heading {
@@ -47,10 +47,26 @@ body {
     border-radius: 10px;
     background-color: #e5effa;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     margin-top: 10px;
-    padding: 20px;
+    padding: 10px;
     gap: 10px;
+}
+
+.read-update {
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    display: flex;
+    /* align-items: center; */
+    margin-top: 10px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.update img, .read-update img{
+    height: 40px;
+    width: 40px;
 }
 
 .username {
@@ -72,11 +88,5 @@ body {
     color: #939dae;
 }
 span {
-    margin-right: 5px;
-}
-
-.update img {
-    height: 40px;
-    width: 40px;
-    /* padding: 20px; */
+    margin-right: 3px;
 }
