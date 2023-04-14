@@ -85,3 +85,14 @@ body {
 span {
     margin-right: 3px;
 }
+
+.update .fa-solid {
+    width: 10px;
+    height: 10px;
+    background-color: #f65351;
+    border-radius: 50%;
+}
+
+#kim .object, #jacob .object {
+    color: #0a317b;
+}
