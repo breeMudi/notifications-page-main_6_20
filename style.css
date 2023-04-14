@@ -42,26 +42,21 @@ body {
     color:#e5effa;
 }
 
-.update {
+.update, .read-update  {
     border: none;
     border-radius: 10px;
-    background-color: #e5effa;
     display: flex;
-    /* align-items: center; */
     margin-top: 10px;
     padding: 10px;
     gap: 10px;
 }
 
+.update {
+    background-color: #e5effa;
+}
+
 .read-update {
-    border: none;
-    border-radius: 10px;
     background-color: #ffffff;
-    display: flex;
-    /* align-items: center; */
-    margin-top: 10px;
-    padding: 10px;
-    gap: 10px;
 }
 
 .update img, .read-update img{
