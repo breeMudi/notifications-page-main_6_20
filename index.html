@@ -18,6 +18,10 @@
       href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Inter:wght@400;700;800&family=Karla:wght@400;500&family=Kumbh+Sans:wght@400;700&family=Manrope:wght@500;700&family=Outfit:wght@400;700&family=Plus+Jakarta+Sans:wght@500;800&family=Space+Mono:wght@700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/9399f11620.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>Frontend Mentor | Notifications page</title>
 
@@ -35,10 +39,12 @@
   <body>
     <div class="container">
       <div class="heading">
-        <p>
-          <span class="notify">Notifications</span>
-          <span class="notify-number">3</span>
-        </p>
+        <div class="notify">
+          <p>
+            <span>Notifications</span>
+          </p>
+          <div><p>3</p></div>
+        </div>
         <p class="read">Mark all as read</p>
       </div>
 
@@ -49,6 +55,7 @@
             <span class="username">Mark Webber</span>
             <span class="action">reacted to your recent post</span>
             <span class="object">My first tournament today!</span>
+            <span><i class="fa-solid fa-period"></i></span>
           </p>
           <p class="action-time">1m ago</p>
         </div>
@@ -61,6 +68,7 @@
             <span class="username">Angela Gray</span>
             <span class="action">followed you</span>
             <span class="object"></span>
+            <span><i class="fa-solid fa-period"></i></span>
           </p>
           <p class="action-time">5m ago</p>
         </div>
@@ -69,10 +77,11 @@
       <div class="update">
         <img src="assets/images/avatar-jacob-thompson.webp" alt="" />
         <div class="content">
-          <p class="inline">
+          <p id="jacob" class="inline">
             <span class="username">Jacob Thompson</span>
             <span class="action">has joined your group</span>
             <span class="object">Chess Club</span>
+            <span><i class="fa-solid fa-period"></i></span>
           </p>
           <p class="action-time">1 day ago</p>
         </div>
@@ -85,15 +94,16 @@
             <span class="username">Rizky Hasanuddin</span>
             <span class="action">sent you a private message</span>
             <span class="object"></span>
+            <span><i class="fa-solid fa-period"></i></span>
           </p>
           <p class="action-time">5 days ago</p>
-        </div>
-        <div class="message">
-          <p>
-            Hello, thanks for setting up the Chess Club. I've been a member for
-            a few weeks now and I'm already having lots of fun and improving my
-            game.
-          </p>
+          <div class="message">
+            <p>
+              Hello, thanks for setting up the Chess Club. I've been a member
+              for a few weeks now and I'm already having lots of fun and
+              improving my game.
+            </p>
+          </div>
         </div>
       </div>
 
@@ -104,23 +114,11 @@
             <span class="username">Kimberly Smith</span>
             <span class="action">commented on your picture</span>
             <span class="object"></span>
+            <span><i class="fa-solid fa-period"></i></span>
           </p>
           <p class="action-time">1 week ago</p>
         </div>
       </div>
-      <!-- dummy -->
-      <!-- <div class="update">
-        <img src="" alt="" />
-        <div class="content">
-          <p class="inline">
-            <span class="username"></span>
-            <span class="action"></span>
-            <span class="object"></span>
-          </p>
-          <p class="action-time"></p>
-        </div>
-      </div> -->
-      <!-- dummy -->
 
       <div class="read-update">
         <img src="assets/images/avatar-nathan-peterson.webp" alt="" />
@@ -131,6 +129,7 @@
             ><span class="object"
               >5 end-game strategies to increase your win rate
             </span>
+            <span><i class="fa-solid fa-period"></i></span>
           </p>
           <p class="action-time">2 weeks ago</p>
         </div>
@@ -139,10 +138,11 @@
       <div class="read-update">
         <img src="assets/images/avatar-anna-kim.webp" alt="" />
         <div class="content">
-          <p class="inline">
+          <p id="kim" class="inline">
             <span class="username">Anna Kim</span>
             <span class="action">left the group</span>
             <span class="object">Chess Club</span>
+            <span><i class="fa-solid fa-period"></i></span>
           </p>
           <p class="action-time">2 weeks ago</p>
         </div>
