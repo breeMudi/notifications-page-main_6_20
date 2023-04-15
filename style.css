@@ -113,3 +113,14 @@ span {
 #kim .object, #jacob .object {
     color: #0a317b;
 }
+
+.object:hover, .read:hover, .username:hover {
+    color: #0a317b;
+    cursor: pointer;
+}
+
+@media (max-width>412px) {
+    .container {
+        max-width: 50%;
+    }
+}
