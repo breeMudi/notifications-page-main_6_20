@@ -8,11 +8,12 @@ html, body {
 }
 
 p {
-    margin: 0;
+    margin: 2px;
 }
 
 body {
-    background-color: #e5effa;
+    /* background-color: #e5effa; */
+    background-color: #f9fafe;
 }
 
 .container {
@@ -27,19 +28,26 @@ body {
 .heading {
     display: flex;
     justify-content: space-between;
+    padding: 15px 0px;
 }
 
 .notify {
     font-weight: 800;
     font-size: 1.2rem;
+    display: flex;
 }
 
-.notify-number {
-    background-color: #0a317b;
-    border: 2px;
-    border-radius: 5px;
+.notify div {
+    width: 30px;
     height: 20px;
+    border-radius: 5px;
+    background-color: #0a317b;
+    text-align: center;
     color:#e5effa;
+    font-size: 0.85rem;
+    padding-bottom: 2px;
+    margin-left: 5px;
+    margin-top: 2px;
 }
 
 .update, .read-update  {
@@ -47,12 +55,13 @@ body {
     border-radius: 10px;
     display: flex;
     margin-top: 10px;
-    padding: 10px;
+    padding: 20px;
     gap: 10px;
 }
 
 .update {
-    background-color: #e5effa;
+    /* background-color: #f9fafe; */
+    background-color: #f6fafd;
 }
 
 .read-update {
@@ -69,7 +78,7 @@ body {
     font-weight: 800;
 }
 
-.action, .read {
+.action, .read, .message {
     color: #5e6778;
 }
 
@@ -77,6 +86,14 @@ body {
     color: #1c202b;
     font-weight: 800;
     opacity: 0.7;
+}
+
+.message {
+    /* background-color: #dde7ee; */
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #939dae50;
+    margin-top: 10px;
 }
 
 .action-time {
@@ -87,8 +104,8 @@ span {
 }
 
 .update .fa-solid {
-    width: 10px;
-    height: 10px;
+    width: 9px;
+    height: 9px;
     background-color: #f65351;
     border-radius: 50%;
 }
