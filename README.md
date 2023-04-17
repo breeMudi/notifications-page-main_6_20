@@ -43,7 +43,7 @@ Through this exercise, I Learnt how to call and manipulate parentElements in the
 
 The number of notification changes if a new update is viewed by the user. To implement this, a count of (unread) update is carried out anytime an unread update is clicked by the user
 
-This project was carried out with a mobile-first approach. The picture below shows the static (image 1) and active states (i=mage 2 and 3) of the exercise.
+This project was carried out with a mobile-first approach. The picture below shows the static (image 1) and active states (image 2 and 3) of the exercise.
 Exercise source: frontend Mentor website 
 current view: mobile
 
