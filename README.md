@@ -18,7 +18,7 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![The desktop view of the notification page](./my_desktop_view.png)
+![The desktop view of the notification page](./desktop.png)
 <!-- ![](./desktop.png)![desktop_view](https://user-images.githubusercontent.com/65234249/224862538-59bda0ed-f0b9-41c6-9706-4af1b6f8087b.png) -->
 
 ### Links
@@ -40,6 +40,7 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 ### What I learned
 
 Through this exercise, I Learnt how to call and manipulate parentElements in the Document Object Model
+
 The number of notification changes if a new update is viewed by the user. To implement this, a count of (unread) update is carried out anytime an unread update is clicked by the user
 
 This project was carried out with a mobile-first approach. The picture below shows the static (image 1) and active states (i=mage 2 and 3) of the exercise.
