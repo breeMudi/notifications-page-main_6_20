@@ -19,7 +19,7 @@ This is a solution to the [Notifications page challenge on Frontend Mentor](http
 ### Screenshot
 
 ![The desktop view of the notification page](./my_desktop_view.png)
-<!-- ![](./desktop_view.jpg)![desktop_view](https://user-images.githubusercontent.com/65234249/224862538-59bda0ed-f0b9-41c6-9706-4af1b6f8087b.png) -->
+<!-- ![](./desktop.png)![desktop_view](https://user-images.githubusercontent.com/65234249/224862538-59bda0ed-f0b9-41c6-9706-4af1b6f8087b.png) -->
 
 ### Links
 
